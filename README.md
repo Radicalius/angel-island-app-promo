@@ -2,17 +2,20 @@
 
 Promotional Embed For the Angel Island App
 
-Preview: https://radicalius.github.io/angel-island-app-promo/
+Preview: https://radicalius.github.io/angel-island-app-promo/preview.html
 
 ## Embed Code
 
 ```
-<iframe 
-   src="https://radicalius.github.io/angel-island-app-promo/" 
-   border="0"
-   width=800
-   height=200
-/> 
-```
+<style>
+    #angel-island-promo {
+        width: min($min-width, $max-width);
+        height: min($min-width * 0.25, $max-width * 0.25);
+        border: none;
+    }
+</style>
 
-Recommended Aspect Ratio: 4 x 1
+...
+
+<iframe id=angel-island-promo src="https://radicalius.github.io/angel-island-app-promo/" /> 
+```
